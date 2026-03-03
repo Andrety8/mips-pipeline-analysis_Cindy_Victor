@@ -4,7 +4,9 @@
 **Fecha:** 2 de marzo de 2026  
 **Asignatura:** Estructura de Computadores
  
-**Enlace del repositorio en GitHub:** https://github.com/victorandrescubillosbaquero1/andres-cubillos-estructura-computadores-act01 
+**Enlace del repositorio en GitHub:** https://github.com/victorandrescubillosbaquero1/andres-cubillos-estructura-computadores-act01
+
+https://github.com/Andrety8/mips-pipeline-analysis_Cindy_Victor.git
  
 
 ---
@@ -165,5 +167,6 @@ Como resultado, se mantiene la continuidad del flujo de ejecución, se reducen l
 > En particular, la eliminación del hazard tipo Load-Use mediante reordenamiento manual de instrucciones confirma que el rendimiento no depende exclusivamente del hardware, sino también de la forma en que el programador (o compilador) estructura el flujo de ejecución. Al sustituir un ciclo de espera por una instrucción independiente, se logró mantener el pipeline ocupado y reducir el CPI, demostrando que pequeñas modificaciones en el orden del código pueden generar mejoras medibles en la eficiencia.
 
 > Sin embargo, no siempre es posible eliminar completamente todas las paradas. Existen dependencias de datos inevitables cuando una instrucción requiere necesariamente el resultado inmediato de otra, así como riesgos de control asociados a saltos condicionales cuya resolución depende del flujo del programa. Además, ciertas latencias están determinadas por el propio diseño del hardware y no pueden ser eliminadas únicamente mediante optimización de software.
+
 
 > En conclusión, la segmentación obliga a pensar el software no solo en términos funcionales, sino también temporales. El programador debe considerar cuándo los datos estarán disponibles y cómo organizar las instrucciones para alimentar continuamente el pipeline. La optimización aplicada en este laboratorio evidencia cómo el conocimiento de la arquitectura permite escribir código más eficiente, reforzando la estrecha relación entre diseño de hardware y programación de bajo nivel.
